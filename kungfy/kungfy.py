@@ -14,7 +14,9 @@ import gtk
 from engine import RemoteEngine
 from configuration import Configuration 
 
-title_message = '''kung-fy v0.5 - Script for nas-based banshee state storage, 2010-2014 by Alexander Bethke\n'''
+__version__ = '0.5.0'
+
+title_message = '''kung-fy v%s - Script for nas-based banshee state storage\n''' % __version__
 usage_message = '''    Specify flag -n or --nogui to run as command-line utility without gui.
 '''
 
