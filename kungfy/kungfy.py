@@ -14,7 +14,7 @@ import gtk
 from engine import RemoteEngine
 from configuration import Configuration 
 
-title_message = '''kung-fy v0.4 - Script for nas-based banshee configuration storage, 2010-2011 by Alexander Bethke\n'''
+title_message = '''kung-fy v0.5 - Script for nas-based banshee state storage, 2010-2014 by Alexander Bethke\n'''
 usage_message = '''    Specify flag -n or --nogui to run as command-line utility without gui.
 '''
 
@@ -47,4 +47,3 @@ def main(argv):
 
 if __name__ == "__main__":
     main(sys.argv[1:])
-
